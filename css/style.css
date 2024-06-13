@@ -77,37 +77,34 @@ main
 .main-container {
     background-color: rgb(243, 243, 243);
 }
-.discount .discount1 {
-background-color: red;
-color: white;
-display: inline-block;
-position: absolute;
-bottom: 0;
-left: 0;
+
+.sconto {
+    display: flex;
+
 }
+
+.discount .discount1 {
+ 
+    color: white;
+}
+.discount .discount2 {
+    background-color: red;
+    color: white;
+}
+
 .discount .sostenibilita {
     background-color: green;
     color: white;
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    left: 35px;
-    }
-
-    .discount .prefer {
-        background-color: white;
-        color: black;
-        font-size: 1.25rem;
-        text-align: left;
-        position: absolute;
-        top: 0;
-        right: 0;
-
-    }
-
-.discount {
-    position: relative;
 }
+
+.discount .prefer {
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+
 .row-main {
     max-width: 80%;
     max-height: 50%;
