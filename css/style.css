@@ -74,17 +74,23 @@ main
     color: red;
 }
 
+.rowdiscount {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+}
+
+.boxdiscount {
+    position: absolute;
+}
+
 .main-container {
     background-color: rgb(243, 243, 243);
 }
 
-.sconto {
-    display: flex;
-
-}
 
 .discount .discount1 {
- 
+    background-color: red;
     color: white;
 }
 .discount .discount2 {
