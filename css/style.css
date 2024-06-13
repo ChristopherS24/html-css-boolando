@@ -101,6 +101,19 @@ main
 .discount .sostenibilita {
     background-color: green;
     color: white;
+    margin-left: 5px;
+}
+
+.rowheart {
+    position: absolute;
+    top: 20px;
+    left: 290px;
+    padding: 5%;
+}
+
+.boxrowheart {
+    position: absolute;
+
 }
 
 .discount .prefer {
