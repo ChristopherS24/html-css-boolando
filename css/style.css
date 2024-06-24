@@ -12,6 +12,11 @@ RESET
 GENERAL
 */
 
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .row {
     margin: 0 auto;
     height: 50px;
@@ -34,25 +39,32 @@ GENERAL
 
 img {
     max-width: 100%;
-}
+}   
 
 h6 {
     color: white;
+    font-size: 0.5rem;
 }
 p {
     color: black;
+    font-size: 0.8rem;
 }
 a {
     text-decoration: none;
     margin: 0 5px;
     color: white;
 }
+.sale {
+    color: red;
+}
+s {
+    color: black;
+}
 
 
 /*
 header
 */
-
 .boolean-logo {
     width: 15%;
 }
@@ -62,106 +74,73 @@ header
     text-decoration: none;
 }
 .row-box {
-    background-color: #FF6900;
+    background-color: orange;
 }
 
 
 /*
 main
 */
-
-.sales {
-    color: red;
-}
-
-.rowdiscount {
-    position: absolute;
-    bottom: 20px;
-    display: flex;
-}
-
-.boxdiscount {
-    position: absolute;
-}
-
 .main-container {
-    background-color: rgb(243, 243, 243);
+    width: 80%;
 }
-
-
-.discount .discount1 {
-    background-color: red;
-    color: white;
-}
-.discount .discount2 {
-    background-color: red;
-    color: white;
-}
-
-.discount .sostenibilita {
-    background-color: green;
-    color: white;
-    margin-left: 5px;
-}
-
-.rowheart {
-    position: absolute;
-    top: 20px;
-    left: 290px;
-    padding: 5%;
-}
-
-.boxrowheart {
-    position: absolute;
-
-}
-
-.discount .prefer {
-    background-color: white;
-    color: black;
-    font-size: 1.25rem;
-    text-align: left;
-}
-
 
 .row-main {
-    max-width: 80%;
-    max-height: 50%;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-}
-.box-img {
-    padding: 20px;
-    margin: 0 10px;
-}
-.row-container-center {
-    margin: 0 30px;
-}
-.row-container-left {
-    margin-left: 0 -15px;
-
-}
-.row-container-right {
-    margin-right: 0 -15px;
-
-}
-.column {
-    padding: 20px;
+    flex-wrap: wrap;
 }
 
+.row-container {
+    width: calc(100%/3);
+    padding: 20px 10px;
+}
+
+.discount {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+}
+.box-discount {
+    position: absolute;
+}
+.discount>* {
+    background-color: red;
+}
+.sostenibility {
+    background-color: #207d20;
+    margin-left: 5px;
+}
+.scheda {
+    position: relative;
+}
+.heart {
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.scheda:hover .hover {
+    display: block;
+}
 
 /*
 footer
 */
-
-.colorbrands {
-    color: white;
-}
 .row-box-footer {
-    background-color: #1A1A1A;
+    background-color: #33333f;
+    border-bottom: 1px solid white;
 }
 footer p {
     color: white;
+    font-size: 0.5rem;
 }
 
